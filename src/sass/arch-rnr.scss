@@ -1,0 +1,217 @@
+/* Media Queries */
+@media only screen and (min-width: 1134px) {
+  #main-container {
+    margin: 0 auto !important;
+  }
+
+  #detail-persona-container {
+    margin: 0 auto !important;
+    width: 85% !important;
+  }
+}
+
+@media only screen and (max-width: 607px) {
+  #general-persona-master-container {
+    padding: 5px !important;
+  }
+}
+
+@media (min-width: 67em) {
+  .em-l--two-column-wide .em-l__secondary {
+    width: 30rem !important;
+    min-width: 15rem !important;
+  }
+}
+/* END */
+
+/* Master and Utils */
+.pageHeader {
+  margin-bottom: 50px;
+}
+
+.blueBG {
+  background: #0C479D;
+}
+
+#main-container {
+  margin: 0 5px;
+  background: #ffffff;
+  padding: 50px 0;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.leftPad {
+  padding-left: 10px;
+}
+
+.topMargin {
+  margin-top: 15px;
+}
+
+.roleHeading {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #0C479D;
+}
+
+.readable {
+  max-width: 900px;
+}
+
+a:hover {
+  color: #00A3E0;
+  text-decoration: none;
+}
+/* END */
+
+/* General Persona Page*/
+#general-persona-master-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.cardBox {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.em-c-card__footer {
+  background: #ffffff !important;
+  border: none !important;
+}
+
+.viewDetailsBtn {
+  background: #3a397b;
+  background-image: linear-gradient(45deg,#3a397b 0,#0c69b0 100%);
+  color: #ffffff !important;
+}
+
+.personaCard {
+  margin: 0 auto;
+  background-color: white;
+}
+
+.cardFooterLink {
+  padding: 19px 0px;
+}
+
+#general-btn {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.buttonless {
+  background: none!important;
+  border: none; 
+  padding: 0!important;
+  color: #00A3E0;
+}
+
+.buttonless:hover {
+  text-decoration: underline;
+}
+
+.bdatSubLink {
+  padding: 5px 2px !important;
+  min-height: 64px;
+}
+
+.bdatSubLink:hover {
+  background: #00A3E0 !important;
+}
+
+.bdatSubLink-active {
+  background: #00A3E0 !important;
+}
+
+.bdatTile {
+  width: 80%;
+  min-width: 80%;
+  margin: 0 auto;
+}
+
+/* END */
+
+/* Detail Persona Page*/
+#detail-persona-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#back-btn {
+  margin-bottom: 40px;
+}
+
+#top-detail {
+  margin: 0 auto;
+  width: 80%;
+}
+
+@media only screen and (max-width: 591px) {
+  #top-detail {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #top-detail .em-c-media-block__media {
+    width: 40%;
+    margin: 0 auto 20px;
+  }
+}
+
+#details-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.detailSectionList {
+  list-style: none !important;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.detailSectionList ul {
+  padding-left: 20px;
+}
+
+.detailSectionList li {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.detailSectionList li::before {
+  content: "\f0da"; /* FontAwesome Unicode */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-left: -1em; /* same as padding-left set on li */
+  width: 1em; /* same as padding-left set on li */
+  color: #ED8B00
+}
+
+.detailCatHeading {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #002F6C;
+}
+
+#detail-bottom-grid {
+  margin: 0 !important;
+}
+
+.detailSection {
+  padding: 10px !important;
+}
+
+/* END */
