@@ -29,7 +29,7 @@
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.27",
     "msal": "^1.0.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "npm": "^6.14.2",
     "office-ui-fabric-react": "^7.15.0",
     "passport": "^0.4.1",
